@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    color: blue
+    font-size: 25px;
+}
+h1 {
+    color: green
+}
+.main-header {
+    color: white;
+}
+.main-header {
+    color: black
+}
+#id {
+    color: plum
+}
+
+
