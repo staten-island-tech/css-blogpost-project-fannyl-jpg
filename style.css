@@ -16,4 +16,16 @@ h1 {
     color: plum
 }
 
+.head {
+    background-color: brown;
+    height: 30vh;
+    width: 50vw;
+}
 
+.background {
+    background-image: url(img/);
+    background-position: center;
+    background-size: c;
+    color: white;
+    height: 50vh;
+}
