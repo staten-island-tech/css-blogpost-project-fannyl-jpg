@@ -2,6 +2,15 @@ body {
     background-color: aliceblue;
     color: blue;
     font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.background {
+    background-image: url(img/sunset.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    max-width: 100%; 
+    height: auto;  
 }
 h1 {
     color: green;
@@ -22,10 +31,18 @@ h1 {
     width: 50vw;
 }
 
-.background {
-    background-image: url(img/);
-    background-position: center;
-    background-size: c;
-    color: white;
-    height: 50vh;
-}
+.parent {
+    border: 5px solid red;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin-top: 200px;
+  }
+  .child {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
