@@ -1,11 +1,10 @@
 body {
-    background-color: aliceblue;
-    color: blue;
+    background-color: #688699;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;
 }
 .background {
-    background-image: url(img/sunset.jpg);
+    b/ackground-image: url(img/sunset.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -13,26 +12,27 @@ body {
     height: auto;  
 }
 h1 {
-    color: green;
+    color: #020202;
+}
+.head {
+    background-color: #96A6B3;
+    height: 30vh;
+    width: 100vw;
 }
 .main-header {
     color: white;
 }
-.main-header {
-    color: black;
-}
+
 #id {
     color: plum;
+    color: #BA8E8D;
 }
 
-.head {
-    background-color: brown;
-    height: 30vh;
-    width: 50vw;
+h2 {
+    color: #C5A8A4;
 }
-
 .parent {
-    border: 5px solid red;
+    border: 10px solid #BA8E8D;
     height: 500px;
     width: 500px;
     position: relative;
