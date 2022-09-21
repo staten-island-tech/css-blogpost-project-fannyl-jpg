@@ -1,27 +1,37 @@
 body {
-  background-color: #B8CCDC;
+  background-color: #edf2f4;
   font-size: 25px;
   font-family: "Work Sans", sans-serif;
   max-width: 100%;
   height: auto;
+  padding: 30px, 30px;
 }
 
 h1 {
-  color: white;
+  color: #2576B7;
   font-size: 40px;
 }
 
 h2 {
-  color: white;
+  color: #2A3A3B;
   text-align: center;
 }
 
-.head {
-  background-color: #97A6B1;
-  height: 20vh;
-  width: 100vw;
-  text-align: center;
+h3 {
+    color: #094868 ;
+    text-align: center;
 }
+
+h4 {
+    color: #2E73B9;
+    text-align: center;
+}
+
+.head {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+  }
 
 img {
   background-image: url(img/SouthIsland.jpg);
@@ -48,33 +58,33 @@ img {
 }
 
 .parent {
-  border: 10px solid #66ABDE;
-  height: 1000px;
-  width: 500px;
+  border: 10px solid #455854;
+  height: 1600px;
+  width: 1000px;
   position: relative;
   margin-top: 1000px;
   margin: auto;
   font-size: 20px;
+  padding: 30px, 30px;
 }
 
 .parent2 {
-    border: 10px solid #66ABDE;
-    height: 660px;
-    width: 500px;
+    border: 10px solid #006AA7;
+    height: 850px;
+    width: 1000px;
     position: relative;
     margin: auto;
     font-size: 20px;
   }
 
   .parent3 {
-    border: 10px solid #66ABDE;
-    height: 725px;
-    width: 500px;
+    border: 10px solid #847562;
+    height: 950px;
+    width: 1000px;
     position: relative;
     margin: auto;
     font-size: 20px;
   }
-
 
 .child {
   position: absolute;
