@@ -1,5 +1,5 @@
 body {
-  background-color: #edf2f4;
+  background-color: #C8EEF6;
   font-size: 20px;
   font-family: "Work Sans", sans-serif;
   max-width: 100%;
@@ -8,12 +8,24 @@ body {
 }
 
 h1 {
-  color: #2576B7;
+  color: #593E2B;
   font-size: 50px;
 }
 
 h2 {
-  color: #1E1009;
+  color: #8F9581;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  color: #233F53;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  color: #282A2F;
   text-align: center;
   font-size: 40px;
 }
@@ -33,38 +45,41 @@ img {
   height: auto;
 }
 
-.parent {
+.firstplace {
   border: 10px solid #455854;
-  height: 1600px;
-  width: 1000px;
+  height: 1000px;
+  width: 500px;
   position: relative;
   margin-top: 1000px;
   margin: auto;
   font-size: 20px;
-  padding: 30px, 30px;
+  padding: 150px;
 }
 
-.parent2 {
-    border: 10px solid #006AA7;
-    height: 850px;
-    width: 1000px;
-    position: relative;
-    margin: auto;
-    font-size: 20px;
-  }
+.secondplace {
+  border: 10px solid #091C28;
+  height: 700px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  font-size: 20px;
+  padding: 150px;
+}
 
-.parent3 {
-    border: 10px solid #847562;
-    height: 950px;
-    width: 1000px;
-    position: relative;
-    margin: auto;
-    font-size: 20px;
-  }
+.thirdplace {
+  border: 10px solid #6C5B41;
+  height: 700px;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  font-size: 20px;
+  padding: 150px;
+}
 
 .child {
   position: absolute;
   top: 30%;
   left: 100%;
   transform: translate(-50%, -50%);
+  padding: 30px, 30px;
 }
